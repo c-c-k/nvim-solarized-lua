@@ -473,8 +473,8 @@ function M.load_syntax(colors)
 
 	-- Text {{{
 	syntax['@text'] = syntax['Normal']
-	syntax['@text.strong'] = {fg=colors.base1,bg=colors.base03,style='bold'}
-	syntax['@text.emphasis'] = {fg=colors.base1,bg=colors.base03,style='italic'}
+	syntax['@text.strong'] = {fg=colors.base1,style='bold'}
+	syntax['@text.emphasis'] = {fg=colors.base1,style='italic'}
 	syntax['@text.underline'] = syntax['Underlined']
 	syntax['@text.strike'] = syntax['Strikethrough']
 	syntax['@text.title'] = syntax['Title']
