@@ -16,7 +16,7 @@ local darkColors = {
 	base00  = {'#657b83',103},
 	base0   = {'#839496',145},
 	violet  = {'#6c71c4',104},
-	base1   = {'#93a1a1',145},
+	base1   = {'#93a1a1',12},
 	base3   = {'#fdf6e3',231},
 	err_bg  = {'#fdf6e3',231}
 }
