@@ -74,8 +74,8 @@ function M.load_syntax(colors)
 		syntax['LineNr'] = {fg=colors.base0,bg=colors.base02,}
 		syntax['NonText'] = {fg=colors.orange,style='bold'}
 		syntax['SpecialKey'] = {fg=colors.orange,style='reverse'}
-		syntax['SpellBad'] = {fg=colors.violet,bg=colors.base3,guisp=colors.red,style='reverse,undercurl'}
-		syntax['SpellCap'] = {fg=colors.violet,bg=colors.base3,guisp=colors.red,style='reverse,undercurl'}
+		syntax['SpellBad'] = {fg=colors.red,bg=colors.base3,guisp=colors.red,style='strikethrough,undercurl'}
+		syntax['SpellCap'] = {fg=colors.red,bg=colors.base3,guisp=colors.red,style='undercurl'}
 		syntax['SpellLocal'] = {fg=colors.yellow,bg=colors.base3,guisp=colors.red,style='reverse,undercurl'}
 		syntax['SpellRare'] = {fg=colors.cyan,bg=colors.base3,guisp=colors.red,style='reverse,undercurl'}
 		syntax['Title'] = {fg=colors.yellow,style='bold'}
@@ -84,8 +84,8 @@ function M.load_syntax(colors)
 		syntax['LineNr'] = {fg=colors.base01,bg=colors.base02,}
 		syntax['NonText'] = {fg=colors.base02,style='bold'}
 		syntax['SpecialKey'] = {fg=colors.base02,style='reverse'}
-		syntax['SpellBad'] = {fg=colors.violet,guisp=colors.violet,style='undercurl'}
-		syntax['SpellCap'] = {fg=colors.violet,guisp=colors.violet,style='undercurl'}
+		syntax['SpellBad'] = {fg=colors.red,guisp=colors.red,style='strikethrough,undercurl'}
+		syntax['SpellCap'] = {fg=colors.red,guisp=colors.red,style='undercurl'}
 		syntax['SpellLocal'] = {fg=colors.yellow,guisp=colors.yellow,style='undercurl'}
 		syntax['SpellRare'] = {fg=colors.cyan,guisp=colors.cyan,style='undercurl'}
 		syntax['Title'] = {fg=colors.base01,style='bold'}
@@ -94,8 +94,8 @@ function M.load_syntax(colors)
 		syntax['LineNr'] = {fg=colors.base00,bg=colors.base02,}
 		syntax['NonText'] = {fg=colors.base00,style='bold'}
 		syntax['SpecialKey'] = {fg=colors.base00,bg=colors.base02,style='bold'}
-		syntax['SpellBad'] = {fg=colors.violet,guisp=colors.violet,style='undercurl'}
-		syntax['SpellCap'] = {fg=colors.violet,guisp=colors.violet,style='undercurl'}
+		syntax['SpellBad'] = {fg=colors.red,guisp=colors.red,style='undercurl,strikethrough'}
+		syntax['SpellCap'] = {fg=colors.red,guisp=colors.red,style='undercurl'}
 		syntax['SpellLocal'] = {fg=colors.yellow,guisp=colors.yellow,style='undercurl'}
 		syntax['SpellRare'] = {fg=colors.cyan,guisp=colors.cyan,style='undercurl'}
 		syntax['Title'] = {fg=colors.orange,style='bold'}
