@@ -134,7 +134,7 @@ function M.load_syntax(colors)
 	syntax['Todo'] = {fg=colors.magenta,style='bold'}
 	syntax['Type'] = {fg=colors.yellow}
 	syntax['Text'] = {fg=colors.cyan}
-	syntax['Strikethrough'] = {fg=colors.base01,strikethrough=true}
+	syntax['Strikethrough'] = {fg=colors.base01,style='strikethrough'}
 	syntax['Underlined'] = {fg=colors.violet}
 	syntax['NormalMode'] = {fg=colors.base0,bg=colors.base3,style='reverse'}
 	syntax['InsertMode'] = {fg=colors.cyan,bg=colors.base3,style='reverse'}
